@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZCollege - Campus Marketplace for Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EZCollege</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Campus Marketplace with EZCollege</h2>
+            <p>Connecting students with a secure, user-friendly platform to buy and sell items within their college community.</p>
+            <div class="additional-info">
+                <p>
+                    EZCollege is here! We are excited to introduce EZCollege, an innovative campus marketplace designed to simplify buying and selling within your college community. This first release comes with essential features to help students engage in easy buying and selling of thrifted items.
+                </p>
+                <h4>What’s Included in Version 1.0:</h4>
+                <ul>
+                    <li>Verified college user base</li>
+                    <li>Effortless item listings and discoverability</li>
+                    <li>Real-time messaging for smooth transactions</li>
+                    <li>Secure data protection</li>
+                </ul>
+                <p>
+                    This is just the beginning! We’re committed to making EZCollege even better. Stay tuned for future updates, including additional features to enhance the marketplace experience and make campus trading safer and more convenient.
+                </p>
+                <ul>
+                    <li><strong>Age:</strong> 18+</li>
+                    <li><strong>Language:</strong> English</li>
+                    <li><strong>In-App Purchases:</strong> No</li>
+                    <li><strong>Size:</strong> N/A</li>
+                    <li><strong>Compatibility:</strong> Requires iOS 17 or later. Compatible with iPhone.</li>
+                    <li><strong>Price:</strong> Free</li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <main>
+        <section id="about" class="tab-section">
+            <h2>About EZCollege</h2>
+           <p>
+            EZCollege is an innovative platform designed to enhance campus life by creating a trusted and secure marketplace exclusively for college students. By leveraging advanced verification and user-friendly tools, EZCollege simplifies buying and selling within college communities, making transactions convenient, safe, and seamless.
+           </p>
+            <div class="about-container">
+                <div class="about-box">
+                    <h3>Campus Marketplace</h3>
+                    <p>
+                        EZCollege streamlines student transactions by providing tools for secure item listings, campus-centric search, and real-time communication between buyers and sellers, ensuring a safe and efficient campus marketplace.
+                    </p>
+                    <button class="learn-more-btn" onclick="location.href='logistics.html'">Learn More</button>
+                </div>
+                <div class="about-box">
+                    <h3>Student Security</h3>
+                    <p>
+                        EZCollege ensures a secure and seamless experience by prioritizing privacy and communication. Our platform uses encryption and security measures to protect user data and foster safe transactions.
+                    </p>
+                    <button class="learn-more-btn" onclick="location.href='drivers.html'">Learn More</button>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="features" class="tab-section">
+            <h2>Core Features</h2>
+            <div class="features-grid">
+                <!-- Drowsiness Detection -->
+                <div class="feature-item">
+                    <h3>Verified College Marketplace</h3>
+                    <p>
+                        EZCollege creates a trusted environment by verifying all users through their college email credentials. This ensures that only enrolled students from your campus can join the platform. 
+
+
+                    </p>
+                    <div class="more-content" id="drowsiness-more">
+                        <p>
+                            By keeping the marketplace exclusive to your college, we foster a secure, tight-knit community where students can confidently buy, sell, and connect without fear of scams or external interference.
+                        </p>
+                    </div>
+                    <button class="see-more-btn" onclick="toggleDetails('drowsiness-more')">See More</button>
+                </div>
+        
+                <!-- Driver & Vehicle Management -->
+                <div class="feature-item">
+                    <h3> Easy Listing and Management</h3>
+                    <p>
+                        Selling has never been easier. With just a few clicks, you can list items for sale by uploading photos, writing descriptions, and setting prices.
+                    </p>
+                    <div class="more-content" id="management-more">
+                        <p>
+                            Manage your active listings effortlessly through your profile, where you can edit, update, or remove items as needed. Buyers benefit from detailed and visually appealing listings that help them make informed decisions.
+                        </p>
+                    </div>
+                    <button class="see-more-btn" onclick="toggleDetails('management-more')">See More</button>
+                </div>
+        
+                <!-- Real-Time Alerts -->
+                <div class="feature-item">
+                    <h3> In-App Messaging</h3>
+                    <p>
+                        Streamline communication with our secure in-app messaging system. 
+                    </p>
+                    <div class="more-content" id="alerts-more">
+                        <p>
+                            Buyers and sellers can directly chat to discuss product details, negotiate prices, and finalize deals—all within the app. This eliminates the need for third-party messaging platforms, keeping interactions safe, organized, and focused on the transaction.
+                        </p>
+                    </div>
+                    <button class="see-more-btn" onclick="toggleDetails('alerts-more')">See More</button>
+                </div>
+        
+                <!-- Secure Data Management -->
+                <div class="feature-item">
+                    <h3>Campus-Centric Search</h3>
+                    <p>
+                        Simplify your search for items by browsing listings specifically tailored to your campus. 
+                    </p>
+                    <div class="more-content" id="data-more">
+                        <p>
+                            With our campus-centric filters, students can easily find books, electronics, or dorm essentials available nearby. This localized approach not only saves time but also eliminates the inconvenience of dealing with distant sellers, making the buying and selling process more efficient and reliable.
+                        </p>
+                    </div>
+                    <button class="see-more-btn" onclick="toggleDetails('data-more')">See More</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="how-it-works" class="how-it-works-section">
+            <h2>How It Works</h2>
+            <p>EZCollege simplifies the buying and selling process for students. Follow the steps below:</p>
+            
+            <div class="video-container" style="text-align: center;">
+                <video controls style="max-width: 100%; max-height: 400px; object-fit: cover;">
+                    <source src="./pitchvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Watch this video to learn more about how EZCollege helps students buy and sell items within their campus community in real-time!</p>
+            </div>
+            
+            
+            <div class="steps-container">
+                <div class="step">
+                  <div class="step-icon">🔑</div>
+                  <h3>Step 1: Login & Sign-Up</h3>
+                  <p>
+                    Start by signing up with your name, college email, and password. Once registered, log in to access the marketplace and start browsing or listing items.
+                  </p>
+                </div>
+                <div class="step">
+                  <div class="step-icon">📋</div>
+                  <h3>Step 2: Home Dashboard</h3>
+                  <p>
+                    Upon logging in, you'll land on the *Home Dashboard*, where you can see featured products and explore listings from other students within your college community.
+                  </p>
+                </div>
+                <div class="step">
+                  <div class="step-icon">💖</div>
+                  <h3>Step 3: Favourites Tab</h3>
+                  <p>
+                    In the *Favourites* tab, save items that interest you for quick access later. Never miss a deal by marking your favourite products to keep track of them.
+                  </p>
+                </div>
+                <div class="step">
+                  <div class="step-icon">🛒</div>
+                  <h3>Step 4: Listings Tab</h3>
+                  <p>
+                    In the *Listings* tab, you can easily list your items for sale. Upload photos, add descriptions, set prices, and let others in your college community discover your products.
+                  </p>
+                </div>
+                <div class="step">
+                  <div class="step-icon">📬</div>
+                  <h3>Step 5: Inbox Tab</h3>
+                  <p>
+                    Check the *Inbox* tab for messages from buyers or sellers. Chat directly with others to negotiate prices, ask questions, and finalize transactions securely.
+                  </p>
+                </div>
+                <div class="step">
+                  <div class="step-icon">👤</div>
+                  <h3>Step 6: Profile Tab</h3>
+                  <p>
+                    Edit and manage your profile in the *Profile Tab*. Update your personal information, view your transaction history, and manage your preferences for a smooth buying or selling experience.
+                  </p>
+                </div>
+              </div>
+              
+          </section>
+          
+        
+    </main>
+    <section id="contact" class="tab-section">
+        <h2>Contact Us</h2>
+        
+        <!-- Frequently Asked Questions (FAQ) -->
+        <div class="faq">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-item">
+                <h4 class="faq-question" onclick="toggleFAQ('faq1')">
+                    What is the EZCollege app?
+                    <span class="plus">+</span>
+                </h4>
+                <p id="faq1" class="faq-answer" style="display: none;">EZCollege is a platform where college students can securely buy and sell thrifted items within their campus. With verified users and in-app messaging, it provides a safe and convenient trading experience.</p>
+            </div>
+            <div class="faq-item">
+                <h4 class="faq-question" onclick="toggleFAQ('faq2')">
+                    How do I create an account on EZCollege?
+                    <span class="plus">+</span>
+                </h4>
+                <p id="faq2" class="faq-answer" style="display: none;">To create an account, simply sign up using your college email ID. You'll receive a verification link to authenticate your email. Once verified, you can log in and start using the app.</p>
+            </div>
+            <div class="faq-item">
+                <h4 class="faq-question" onclick="toggleFAQ('faq3')">
+                    How do I list an item for sale?
+                    <span class="plus">+</span>
+                </h4>
+                <p id="faq3" class="faq-answer" style="display: none;">Click on the plus button at the top right corner of Listings tab. Upload a photo, provide a description, set a price, and your listing will be live on the app for other students to view.</p>
+            </div>
+            <div class="faq-item">
+                <h4 class="faq-question" onclick="toggleFAQ('faq4')">
+                    How can I chat with a seller or buyer?
+                                        <span class="plus">+</span>
+                </h4>
+                <p id="faq4" class="faq-answer" style="display: none;">EZCollege features in-app messaging. Once you're interested in an item or a buyer reaches out, you can initiate a chat directly from the listing page.</p>
+            </div>
+            <div class="faq-item">
+                <h4 class="faq-question" onclick="toggleFAQ('faq5')">
+                    Why do I need a college email to sign up?
+                    <span class="plus">+</span>
+                </h4>
+                <p id="faq5" class="faq-answer" style="display: none;">Requiring a college email ensures that only verified students from your campus can join the platform, keeping the community secure and trustworthy.</p>
+            </div>
+        </div>
+        
+    
+        <!-- Developer Contact Information -->
+        <section id="developer-section" class="developer-contact">
+            <h3>Meet Our Developers</h3>
+            <div class="developer-slider" id="developerSlider">
+                <div class="developer-container" id="developerContainer">
+                   
+                    <div class="developer-info">
+                        <img src="./abhay_gupta.jpeg" alt="Abhay Gupta">
+                        <h4>Abhay Gupta</h4>
+                        <p>Email: <a href="mailto:abhay19021@gmail.com">abhay19021@gmail.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhay-gupta-2100a" target="_blank">Abhay Gupta</a></p>
+                        <p>Github: <a href="https://github.com/AbhayG21" target="_blank">AbhayG21</a></p>
+                    </div>
+                    <div class="developer-info">
+                        <img src="./imgRish.jpeg" alt="Rishita Rana">
+                        <h4>Rishita Rana </h4>
+                        <p>Email: <a href="mailto:rishitarana5@gmail.com">rishitarana5@gmail.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/rishita-rana-169703239/" target="_blank">Rishita Rana</a></p>
+                        <p>Github: <a href="https://github.com/rishitarana" target="_blank">rishitarana</a></p>
+                    </div>
+                    
+                    <div class="developer-info">
+                        <img src="./aashish.jpeg" alt="Aashish Bhardwaj">
+                        <h4>Aashish Bhardwaj</h4>
+                        <p>Email: <a href="mailto:aashishbhardwaj07@icloud.com">aashishbhardwaj07@icloud.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/aashish-bhardwaj-6a2231239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Aashish Bhardwaj</a></p>
+                        <p>Github: <a href="https://github.com/aashish00021" target="_blank">aashish00021</a></p>
+                    </div>
+                    <div class="developer-info">
+                        <img src="./isha.jpg" alt="Isha Goyal">
+                        <h4>Isha Goyal</h4>
+                        <p>Email: <a href="mailto:isha22949@gmail.com">isha22949@gmail.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/isha-goyal-809a92226/" target="_blank">Isha Goyal</a></p>
+                        <p>Github: <a href="https://github.com/1007Isha" target="_blank">1007Isha</a></p>
+                    </div>
+                    <div class="developer-info">
+                        <img src="./abhay_ag.jpeg" alt="Abhay Aggarwal">
+                        <h4>Abhay Aggarwal</h4>
+                        <p>Email: <a href="mailto:avonabhay@gmail.com">avonabhay@gmail.com</a></p>
+                        <p>LinkedIn: <a href=" https://www.linkedin.com/in/abhay-ag/" target="_blank">Abhay Aggarwal</a></p>
+                        <p>Github: <a href=" https://github.com/abhay-ag" target="_blank">abhay-ag</a></p>
+                    </div>
+                </div>
+            </div>
+            <button id="scrollLeft" class="arrow left-arrow">&#8592;</button>
+            <button id="scrollRight" class="arrow right-arrow">&#8594;</button>
+        </section>
+        
+        
+        
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EZCollege. All rights reserved. | <a href="mailto:collegeeasy5@gmail.com" class="contact-link">Contact Support</a></p>
+        </div>
+    </footer>
+</body>
+</html>

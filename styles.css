@@ -1,0 +1,563 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+/* Hero Section */
+#hero {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.additional-info {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+.additional-info ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.additional-info ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.additional-info p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.additional-info h4 {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 0.75rem;
+}
+
+.additional-info ul li strong {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .additional-info {
+        padding: 1rem;
+    }
+
+    .additional-info h3,
+    .additional-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .additional-info ul li {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+header {
+    background: #2b3d52;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0 10px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #f4b400;
+}
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#hero .btn {
+    background: #f4b400;
+    color: #333;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#hero .btn:hover {
+    background: #e7a700;
+}
+
+.tab-section {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background: #2b3d52;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.more-content {
+    display: none;
+    margin-top: 10px;
+    color: #555;
+}
+
+.see-more-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-more-btn:hover {
+    background-color: lightblue;
+}
+.tab-section {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.tab-section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.tab-section p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* Container for About Boxes */
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Individual About Box Styling */
+.about-box {
+    background: #fff;
+    border: 2px solid #d1e3ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-box h3 {
+    font-size: 1.8rem;
+    color: #004aad;
+    margin-bottom: 15px;
+}
+
+.about-box p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Learn More Button */
+.learn-more-btn {
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+    background-color: #00337f;
+}
+.how-it-works-section {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .how-it-works-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .how-it-works-section p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .step {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .step-icon {
+    font-size: 40px;
+    color: #4A90E2;
+    margin-bottom: 15px;
+  }
+  
+  .step h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .step p {
+    font-size: 14px;
+    color: #555;
+  }
+  #contact {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-top: 2px solid #ccc;
+}
+.faq {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.faq h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    
+    background-color: white;     /* White background */
+    border-radius: 2px;          /* Rounded corners */
+    padding: 15px;               /* Padding inside the card */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.faq-item:hover {
+    box-shadow: 0 2px 10px rgba(87, 139, 195, 0.1); /* Soft shadow on hover */
+}
+
+.faq-question {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.plus {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.faq-question.open .plus {
+    transform: rotate(45deg);
+}
+
+#developer-section {
+    position: relative;
+    padding: 40px;
+    text-align: center;
+}
+
+.developer-slider {
+    overflow: hidden;
+    position: relative;
+}
+/* Container Styling */
+/* Container Styling */
+.developer-container {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap; /* Ensure no wrapping */
+
+    scroll-behavior: smooth;
+
+    gap: 50px;
+    width: 100%; /* Adjust width as per the container size */
+    position: relative;
+}
+
+/* Card Styling */
+.developer-info {
+    flex: 0 0 auto;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+
+    width: 300px;
+    text-align: center;
+    margin-right: 10px; /* Adjust spacing between cards */
+
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 2px solid #1e90ff; /* Accent blue border */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    position: relative;
+}
+
+/* Card Image Styling */
+.developer-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect: Card Zoom */
+.developer-info:hover {
+    transform: scale(1.1); /* Zooms the card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    z-index: 10; /* Brings the card above others */
+}
+
+/* Hover Effect: Image Zoom */
+.developer-info:hover img {
+    transform: scale(1.2); /* Slight zoom on the profile image */
+}
+
+/* Arrow Button Styling */
+/* Left Arrow Button */
+.left-arrow {
+    left: 10px; /* Position on the left side */
+}
+
+/* Right Arrow Button */
+.right-arrow {
+    right: 10px; /* Position on the right side */
+}
+
+/* Shared Arrow Button Styling */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ffffff;
+    border: 2px solid #1e90ff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.arrow:hover {
+    background: #1e90ff;
+    color: #fff;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.contact-link {
+    color: lightskyblue;
+   
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+.driver-safety-section {
+    background-color: #ffffff;
+    padding: 2.5rem 1.5rem;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1.8;
+    color: #333;
+}
+
+.driver-safety-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.driver-safety-section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.driver-safety-section .intro {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+}
+
+.driver-safety-section p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.driver-safety-section p strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+.logistics-section {
+    background-color: #f9f9f9;
+    padding: 2.5rem 1.5rem;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1.8;
+    color: #333;
+}
+
+.logistics-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logistics-section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.logistics-section .intro {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+}
+
+.logistics-section p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.logistics-section p strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
